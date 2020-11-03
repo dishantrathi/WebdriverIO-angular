@@ -1,0 +1,6 @@
+{
+  "script": "return (selector => {\r\n                return document.querySelectorAll(selector);\r\n            }).apply(null, arguments)",
+  "args": [
+    "customer()"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(1) > input"
+}

@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604313975426' stop='1604313978395'>
+    <name>Init</name>
+    <title>Init</title>
+    <test-cases>
+        <test-case start='1604313975426' status='broken' stop='1604313978388'>
+            <name>checks for wait(s)</name>
+            <title>checks for wait(s)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='argument' name='browserVersion' value='86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604313975434' status='passed' stop='1604313977230'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='57446b94-ecb6-419a-9c81-fccad1d4a086-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604313977231' status='passed' stop='1604313977517'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='ad94ab8d-b14b-4d36-bf80-163492e57d3f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps>
+                        <step start='1604313977234' status='passed' stop='1604313977509'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='b03d6499-9c0c-4be5-9185-0fe512db23f2-attachment.json' type='application/json' size='86'/>
+                                <attachment title='Screenshot' source='f9b63519-31f6-4065-af54-0d9cab183c9f-attachment.png' type='image/png' size='19244'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604313977521' status='passed' stop='1604313977550'>
+                    <name>POST /session/:sessionId/element/fa654de5-4357-4775-9eba-558dd280386b/click</name>
+                    <title>POST /session/:sessionId/element/fa654de5-4357-4775-9eba-558dd280386b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1604313977551' status='passed' stop='1604313978074'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='80d63d3c-9552-4ad9-8bc7-46761a07e86f-attachment.png' type='image/png' size='19507'/>
+                    </attachments>
+                    <steps>
+                        <step start='1604313977551' status='passed' stop='1604313977806'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='6ab4fb79-b68d-4301-9f48-905cab3c110c-attachment.png' type='image/png' size='19507'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604313978081' status='passed' stop='1604313978387'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f7eee63b-7013-451d-8930-2ac821553c1c-attachment.png' type='image/png' size='14608'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604313978394' status='undefined'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Execution video' source='551a1cff-35bf-4dbf-a5de-1c85fdff028b-attachment.mp4' type='video/mp4' size='98'/>
+            </attachments>
+            <failure>
+                <message>loginpage is not defined</message>
+                <stack-trace>ReferenceError: loginpage is not defined
+                    at Context.&lt;anonymous> (D:\ATFWB\WDIO_DEMO_2-master\tests\example.test.js:32:13)
+                    at Context.executeSync (D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

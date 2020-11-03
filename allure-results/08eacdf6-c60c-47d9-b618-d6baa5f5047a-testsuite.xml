@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604313627710' stop='1604313629880'>
+    <name>Init</name>
+    <title>Init</title>
+    <test-cases>
+        <test-case start='1604313627711' status='broken' stop='1604313629874'>
+            <name>checks for wait(s)</name>
+            <title>checks for wait(s)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='argument' name='browserVersion' value='86.0.4240.111'/>
+            </parameters>
+            <steps>
+                <step start='1604313627721' status='passed' stop='1604313629052'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b82bfb59-5065-4079-bd0c-66872b91d23f-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604313629053' status='broken' stop='1604313629874'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1604313629054' status='passed' stop='1604313629326'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='e1e21302-84a1-4ec6-a659-00762314f9de-attachment.json' type='application/json' size='177'/>
+                                <attachment title='Screenshot' source='2c46e01a-fbcc-4609-a4d5-6145371f8425-attachment.png' type='image/png' size='19244'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1604313629347' status='passed' stop='1604313629616'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='9cad5447-0120-4f6c-adad-cddee4d4ad7f-attachment.png' type='image/png' size='19244'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1604313629620' status='passed' stop='1604313629873'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='1de47860-ee70-4d3f-b79a-d4a870ffe0c3-attachment.png' type='image/png' size='19244'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1604313629879' status='undefined'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Execution video' source='9834af2e-5d74-4dbb-985f-fdfb8c5b604c-attachment.mp4' type='video/mp4' size='98'/>
+            </attachments>
+            <failure>
+                <message>invalid element state: Failed to execute 'querySelectorAll' on 'Document': 'customer()' is not a valid selector.
+                  (Session info: chrome=86.0.4240.111)</message>
+                <stack-trace>invalid element state: Failed to execute 'querySelectorAll' on 'Document': 'customer()' is not a valid selector.
+                  (Session info: chrome=86.0.4240.111)
+                    at getErrorFromResponseBody (D:\ATFWB\WDIO_DEMO_2-master\node_modules\webdriver\build\utils.js:121:10)
+                    at Request._callback (D:\ATFWB\WDIO_DEMO_2-master\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (D:\ATFWB\WDIO_DEMO_2-master\node_modules\request\request.js:185:22)
+                    at Request.&lt;anonymous> (D:\ATFWB\WDIO_DEMO_2-master\node_modules\request\request.js:1154:10)
+                    at IncomingMessage.&lt;anonymous> (D:\ATFWB\WDIO_DEMO_2-master\node_modules\request\request.js:1076:12)
+                    at Browser.runCommandWithHooks (D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Browser.execute (D:\ATFWB\WDIO_DEMO_2-master\node_modules\webdriverio\build\commands\browser\execute.js:21:15)
+                    at Browser.wrapCommandFn (D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Browser.custom$ (D:\ATFWB\WDIO_DEMO_2-master\node_modules\webdriverio\build\commands\browser\custom$.js:19:24)
+                    at Browser.runCommandWithHooks (D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\wrapCommand.js:88:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.&lt;anonymous> (D:\ATFWB\WDIO_DEMO_2-master\tests\example.test.js:32:37)
+                    at Context.executeSync (D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\ATFWB\WDIO_DEMO_2-master\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
